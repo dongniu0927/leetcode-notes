@@ -35,8 +35,8 @@ class Solution(object):
 ```
 时间复杂度O(n)  
 
-可以认为此问题可以转化为找出一个nums[i]对target的差值的index,因为在target跟其中一个值固定的情况下，另一个值也是固定的，可以利用dict, dict中存储的键值为target-当前位置的value，存储的值为当前位的index
-   
+可以认为此问题可以转化为找出一个nums[i]对target的差值的index,因为在target跟其中一个值固定的情况下，另一个值也是固定的，可以利用dict数据结构, dict中存储的键值为target-当前位置的value，存储的值为当前位的index
+
 注意点：
  + 边界值输入的情况
  + 运用dict的key in 语法,dict为hash table,他查找key的时间复杂度为O(1)
