@@ -7,11 +7,6 @@
 ```python
 class Solution:
     def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
         for i,j in enumerate(nums):
             for index in range(i+1,len(nums)):
                 if(j+nums[index]==target):
